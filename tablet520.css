@@ -1,0 +1,40 @@
+@media (min-width: 520px) {
+    main {
+        margin-top: 9rem;
+        text-align: center;
+    }
+
+    .main-logo {
+        width: 45rem;
+        margin: 0 auto;
+        margin-bottom: 3.5rem;
+    }
+    
+    .main-logo img {
+        width: 30rem;
+    }
+
+    .main-input {
+        width: 50rem;
+        margin: 0 auto;
+    }
+
+    .main-input__container {
+        width: 45rem;
+        border-radius: 10rem;
+    }
+    
+    .main-input__container input {
+        width: 38rem;
+        height: 5rem;
+    }
+
+    .main-buttons {
+        width: 45rem;
+    }
+
+    .main-buttons button {
+        width: 20rem;
+        
+    }
+}
