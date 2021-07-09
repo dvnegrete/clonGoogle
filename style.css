@@ -13,12 +13,12 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     flex-wrap: wrap;
-    height: 100vmax;
+    height: 100vh;
 }
 
 header {
     width: 100vw;
-    height: 6rem;
+    height: 15vh;
 }
 
 a {
@@ -61,29 +61,30 @@ header nav {
 }
 
 main {
-    margin-top: 9rem;
+    margin-top: 5rem;
     width: 100vw;
     display: flex;
     flex-direction: column;
     align-items: center;
+    align-content: center;
+    height: 45vh;
 }
 
-.main-logo {    
-    width: 32rem;
-    margin-bottom: 3.5rem;
-    display: flex;
-    justify-content: center;
+.main-logo {
+    width: auto;
+    margin-bottom: 2rem;
 }
 
 .main-logo img {
+    justify-content: center;
+    display: flex;
     width: 23rem;
 }
 
 .main-input {
     display: inherit;
     justify-content: center;
-    width: 32rem;
-    margin-bottom: 2rem;   
+    width: 32rem;   
 }
 
 .main-input__container {
@@ -145,7 +146,7 @@ main {
 
 .main-buttons button {
     height: 3.6rem;
-    width: 10rem;
+    width: 15rem;
     background: color #f2f2f2;;
     border-radius: 1rem;
     border-style: none;
@@ -163,23 +164,28 @@ footer {
     width: 100vw; 
     display: flex;
     flex-direction: column;
-    margin-top: 10rem;
-    min-height: 10rem;
+    height: auto;
     background-color: #f2f2f2;
     border-top: .1rem solid #e4e4e4;
 }
 
+footer a {
+    color: rgba(0, 0, 0, .54);
+}
+
+footer a:visited {
+   color: rgba(0, 0, 0, .54);
+}
+
 footer a:hover {
     cursor: pointer;
+    color: purple;
 }
 
 .footer__pais {
-    width: 100vw;
-    height: 50%;
-    display: flex;
     padding-left: 2rem;
-    justify-content: flex-start;
-    order: 1;
+    color: rgba(0, 0, 0,.54);
+    display: none;
 }
 
 .footer_nav {
@@ -212,6 +218,7 @@ footer a:hover {
 }
 
 .footer_nav li {
+    color: color: rgba(0, 0, 0,.54);
     margin: 1rem 0;
     padding: 0 2rem;
 }
